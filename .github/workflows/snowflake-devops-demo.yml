@@ -32,7 +32,7 @@ jobs:
         #  SF_ROLE: ${{ secrets.SF_ROLE }}
        #   SF_WAREHOUSE: ${{ secrets.SF_WAREHOUSE }}
         #  SF_DATABASE: ${{ secrets.SF_DATABASE }}
-          SF_USERNAME: 'RAMGUNDEBOINA'
+          SF_USERNAME: 'RAMGUNDEBONIA'
           SF_ROLE: 'GITHUB_TESTING_ADMIN_ROLE'
           SF_WAREHOUSE: 'GITHUB_TESTING_WH'
           SF_DATABASE: 'GITHUB_TESTING'
