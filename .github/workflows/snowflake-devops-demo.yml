@@ -36,8 +36,8 @@ jobs:
           SF_ROLE: 'GITHUB_TESTING_ADMIN_ROLE'
           SF_WAREHOUSE: 'GITHUB_TESTING_WH'
           SF_DATABASE: 'GITHUB_TESTING'
-         # SNOWFLAKE_PASSWORD: ${{ secrets.SF_PASSWORD }}
-          SNOWFLAKE_PASSWORD: 'Jishnu1bs2$mr'
+          SNOWFLAKE_PASSWORD: ${{ secrets.SF_PASSWORD }}
+        
         run: |
           echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
           python --version
