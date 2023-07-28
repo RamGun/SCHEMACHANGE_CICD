@@ -1,4 +1,0 @@
-CREATE TABLE DEMO.gl
-   col1 VARCHAR
-  ,co2 VARCHAR
-);
