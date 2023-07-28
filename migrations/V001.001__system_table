@@ -1,5 +1,4 @@
-CREATE TABLE HELLO_WORLD
-(
+CREATE TABLE systable
    col1 VARCHAR
   ,co2 VARCHAR
 );
