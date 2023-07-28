@@ -1,0 +1,4 @@
+CREATE TABLE DEMO.systable
+   col1 VARCHAR
+  ,co2 VARCHAR
+);
