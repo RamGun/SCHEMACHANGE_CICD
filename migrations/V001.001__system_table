@@ -1,0 +1,5 @@
+CREATE TABLE HELLO_WORLD
+(
+   col1 VARCHAR
+  ,co2 VARCHAR
+);
