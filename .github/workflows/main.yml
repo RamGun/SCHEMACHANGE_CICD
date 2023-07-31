@@ -46,4 +46,4 @@ jobs:
           
           echo "Step 2: Running schemachange"
           schemachange -f $GITHUB_WORKSPACE/migrations/glmaster -a $SF_ACCOUNT -u $SF_USERNAME -r $SF_ROLE -w $SF_WAREHOUSE -d $SF_DATABASE -c $SF_DATABASE.SCHEMACHANGE.CHANGE_HISTORY_glmaster --create-change-history-table
-          schemachange -f $GITHUB_WORKSPACE/migrations/gltrans -a $SF_ACCOUNT -u $SF_USERNAME -r $SF_ROLE -w $SF_WAREHOUSE -d $SF_DATABASE -c $SF_DATABASE.SCHEMACHANGE.CHANGE_HISTORY_gltrans
+          schemachange -f $GITHUB_WORKSPACE/migrations/gltrans -a $SF_ACCOUNT -u $SF_USERNAME -r $SF_ROLE -w $SF_WAREHOUSE -d $SF_DATABASE -c $SF_DATABASE.SCHEMACHANGE.CHANGE_HISTORY_gltrans --create-change-history-table
