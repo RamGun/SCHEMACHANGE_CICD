@@ -1,5 +1,4 @@
-
-CREATE SCHEMA DEMO;
+USE SCHEMA DEMO;
 CREATE TABLE gl_master
 (
   glcode VARCHAR
