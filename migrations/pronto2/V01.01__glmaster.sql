@@ -1,6 +1,0 @@
-USE SCHEMA DEMO;
-CREATE TABLE gl_master_v1
-(
-  glcode VARCHAR
-  ,NAME VARCHAR
-);
